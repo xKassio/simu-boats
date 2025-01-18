@@ -1,0 +1,701 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (ardupilot_gazebo) JobQueued: {'identifier': 'ardupilot_gazebo', 'dependencies': OrderedDict()}
+[0.000273] (gz-waves1) JobQueued: {'identifier': 'gz-waves1', 'dependencies': OrderedDict()}
+[0.000683] (ardupilot_gazebo) JobStarted: {'identifier': 'ardupilot_gazebo'}
+[0.003036] (gz-waves1) JobStarted: {'identifier': 'gz-waves1'}
+[0.004574] (ardupilot_gazebo) JobProgress: {'identifier': 'ardupilot_gazebo', 'progress': 'cmake'}
+[0.004771] (ardupilot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/latte/gz_ws/src/ardupilot_gazebo', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DBUILD_TESTING=ON', '-DCMAKE_CXX_STANDARD=17', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/latte/gz_ws/install'], 'cwd': '/home/latte/gz_ws/build/ardupilot_gazebo', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/build::/home/latte/gz_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/latte/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/models:/home/latte/gz_ws/src/ardupilot_gazebo/worlds::/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/worlds'), ('LANGUAGE', 'en_SG:en'), ('USER', 'latte'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/latte/gz_ws/install/lib'), ('HOME', '/home/latte'), ('OLDPWD', '/home/latte/gz_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/latte/gz_ws/install'), ('LOGNAME', 'latte'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/latte/gz_ws/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latte'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/latte/gz_ws/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sigma:@/tmp/.ICE-unix/1416,unix/sigma:/tmp/.ICE-unix/1416'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bad8eefe_7e01_4538_919a_20bd5cefe1b5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GZ_IP', '127.0.0.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', 'garden'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latte/gz_ws/build/ardupilot_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latte/gz_ws/install')]), 'shell': False}
+[0.006948] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'cmake'}
+[0.007442] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'build'}
+[0.007950] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latte/gz_ws/build/gz-waves1', '--', '-j16', '-l16'], 'cwd': '/home/latte/gz_ws/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/build::/home/latte/gz_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/latte/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/models:/home/latte/gz_ws/src/ardupilot_gazebo/worlds::/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/worlds'), ('LANGUAGE', 'en_SG:en'), ('USER', 'latte'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/latte/gz_ws/install/lib'), ('HOME', '/home/latte'), ('OLDPWD', '/home/latte/gz_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/latte/gz_ws/install'), ('LOGNAME', 'latte'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/latte/gz_ws/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latte'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/latte/gz_ws/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sigma:@/tmp/.ICE-unix/1416,unix/sigma:/tmp/.ICE-unix/1416'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bad8eefe_7e01_4538_919a_20bd5cefe1b5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GZ_IP', '127.0.0.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', 'garden'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latte/gz_ws/build/gz-waves1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latte/gz_ws/install')]), 'shell': False}
+[0.047947] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.056138] (ardupilot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.062369] (gz-waves1) StdoutLine: {'line': b'[  2%] Built target gtest\n'}
+[0.072318] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.076439] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1\x1b[0m\n'}
+[0.082532] (gz-waves1) StdoutLine: {'line': b'[  4%] Built target gtest_main\n'}
+[0.100128] (-) TimerEvent: {}
+[0.103586] (ardupilot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.108875] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.143906] (gz-waves1) StdoutLine: {'line': b'[ 26%] Built target gz-waves1\n'}
+[0.158880] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_EigenFFTW_TEST\x1b[0m\n'}
+[0.159143] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_LinearRandomFFTWaveSimulation_TEST\x1b[0m\n'}
+[0.159257] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_WaveSpectrum_TEST\x1b[0m\n'}
+[0.159330] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_WaveSpreadingFunction_TEST\x1b[0m\n'}
+[0.159428] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_Geometry_TEST\x1b[0m\n'}
+[0.159517] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_TriangulatedGrid_TEST\x1b[0m\n'}
+[0.159574] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_Algorithm_TEST\x1b[0m\n'}
+[0.159625] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_Wavefield_TEST\x1b[0m\n'}
+[0.159707] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_Physics_TEST\x1b[0m\n'}
+[0.159762] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_Grid_TEST\x1b[0m\n'}
+[0.159891] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_MeshTools_TEST\x1b[0m\n'}
+[0.159999] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_CGAL_TEST\x1b[0m\n'}
+[0.160686] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-dynamic-geometry-system\x1b[0m\n'}
+[0.162542] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UNIT_LinearRegularWaveSimulation_TEST\x1b[0m\n'}
+[0.167490] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-hydrodynamics-system\x1b[0m\n'}
+[0.170286] (gz-waves1) StdoutLine: {'line': b'[ 29%] Built target UNIT_EigenFFTW_TEST\n'}
+[0.174513] (gz-waves1) StdoutLine: {'line': b'[ 32%] Built target UNIT_WaveSpectrum_TEST\n'}
+[0.174741] (gz-waves1) StdoutLine: {'line': b'[ 30%] Built target UNIT_WaveSpreadingFunction_TEST\n'}
+[0.176891] (gz-waves1) StdoutLine: {'line': b'[ 35%] Built target UNIT_Algorithm_TEST\n'}
+[0.177126] (gz-waves1) StdoutLine: {'line': b'[ 35%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST\n'}
+[0.177223] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.180894] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-rendering\x1b[0m\n'}
+[0.181638] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-waves-model-system\x1b[0m\n'}
+[0.185087] (ardupilot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185335] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185442] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.186031] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_EigenReturnByValue\x1b[0m\n'}
+[0.186814] (gz-waves1) StdoutLine: {'line': b'[ 37%] Built target gz-waves1-dynamic-geometry-system\n'}
+[0.187708] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes\x1b[0m\n'}
+[0.187935] (gz-waves1) StdoutLine: {'line': b'[ 39%] Built target UNIT_Wavefield_TEST\n'}
+[0.189795] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes\x1b[0m\n'}
+[0.190122] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.191647] (gz-waves1) StdoutLine: {'line': b'[ 41%] Built target UNIT_TriangulatedGrid_TEST\n'}
+[0.193039] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimDisplacements\x1b[0m\n'}
+[0.195571] (gz-waves1) StdoutLine: {'line': b'[ 44%] Built target UNIT_Grid_TEST\n'}
+[0.197117] (gz-waves1) StdoutLine: {'line': b'[ 46%] Built target UNIT_Geometry_TEST\n'}
+[0.199624] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimElevationAt\x1b[0m\n'}
+[0.203496] (gz-waves1) StdoutLine: {'line': b'[ 50%] Built target UNIT_MeshTools_TEST\n'}
+[0.204083] (-) TimerEvent: {}
+[0.205949] (gz-waves1) StdoutLine: {'line': b'[ 50%] Built target UNIT_Physics_TEST\n'}
+[0.206187] (gz-waves1) StdoutLine: {'line': b'[ 51%] Built target UNIT_LinearRegularWaveSimulation_TEST\n'}
+[0.206293] (gz-waves1) StdoutLine: {'line': b'[ 53%] Built target gz-waves1-hydrodynamics-system\n'}
+[0.206381] (gz-waves1) StdoutLine: {'line': b'[ 55%] Built target PERFORMANCE_EigenReturnByValue\n'}
+[0.206790] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_WaveSpectrumECKV\x1b[0m\n'}
+[0.206931] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRegularWaveSimDisplacements\x1b[0m\n'}
+[0.208704] (gz-waves1) StdoutLine: {'line': b'[ 58%] Built target UNIT_CGAL_TEST\n'}
+[0.208957] (gz-waves1) StdoutLine: {'line': b'[ 60%] Built target gz-waves1-waves-model-system\n'}
+[0.209355] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PLOT_GnuPlotExample\x1b[0m\n'}
+[0.210616] (gz-waves1) StdoutLine: {'line': b'[ 62%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes\n'}
+[0.210856] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomFFTWaves\x1b[0m\n'}
+[0.211380] (gz-waves1) StdoutLine: {'line': b'[ 63%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes\n'}
+[0.211591] (gz-waves1) StdoutLine: {'line': b'[ 65%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements\n'}
+[0.213238] (gz-waves1) StdoutLine: {'line': b'[ 67%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt\n'}
+[0.214758] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomWaves\x1b[0m\n'}
+[0.216310] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PLOT_LinearRegularWaves\x1b[0m\n'}
+[0.218843] (gz-waves1) StdoutLine: {'line': b'[ 69%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements\n'}
+[0.219077] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PLOT_WaveSpectrum\x1b[0m\n'}
+[0.220189] (gz-waves1) StdoutLine: {'line': b'[ 72%] Built target PERFORMANCE_WaveSpectrumECKV\n'}
+[0.221641] (gz-waves1) StdoutLine: {'line': b'[ 73%] Built target PLOT_GnuPlotExample\n'}
+[0.223398] (gz-waves1) StdoutLine: {'line': b'[ 75%] Built target PLOT_LinearRandomFFTWaves\n'}
+[0.229213] (gz-waves1) StdoutLine: {'line': b'[ 77%] Built target PLOT_LinearRandomWaves\n'}
+[0.232028] (gz-waves1) StdoutLine: {'line': b'[ 79%] Built target PLOT_LinearRegularWaves\n'}
+[0.234306] (gz-waves1) StdoutLine: {'line': b'[ 81%] Built target PLOT_WaveSpectrum\n'}
+[0.238782] (gz-waves1) StdoutLine: {'line': b'[ 91%] Built target gz-waves1-rendering\n'}
+[0.251752] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-waves-visual-system\x1b[0m\n'}
+[0.254365] (gz-waves1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gz-waves1-rendering-ogre2\x1b[0m\n'}
+[0.265638] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.273033] (ardupilot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.273305] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.273649] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.277424] (gz-waves1) StdoutLine: {'line': b'[ 93%] Built target gz-waves1-waves-visual-system\n'}
+[0.287735] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[0.288128] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.288764] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.289143] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.289763] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.289989] (gz-waves1) StdoutLine: {'line': b'[100%] Built target gz-waves1-rendering-ogre2\n'}
+[0.295725] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.296633] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.301597] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.301779] (gz-waves1) CommandEnded: {'returncode': 0}
+[0.302638] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'install'}
+[0.304178] (-) TimerEvent: {}
+[0.309805] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/latte/gz_ws/build/gz-waves1'], 'cwd': '/home/latte/gz_ws/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/build::/home/latte/gz_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/latte/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/models:/home/latte/gz_ws/src/ardupilot_gazebo/worlds::/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/worlds'), ('LANGUAGE', 'en_SG:en'), ('USER', 'latte'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/latte/gz_ws/install/lib'), ('HOME', '/home/latte'), ('OLDPWD', '/home/latte/gz_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/latte/gz_ws/install'), ('LOGNAME', 'latte'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/latte/gz_ws/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latte'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/latte/gz_ws/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sigma:@/tmp/.ICE-unix/1416,unix/sigma:/tmp/.ICE-unix/1416'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bad8eefe_7e01_4538_919a_20bd5cefe1b5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GZ_IP', '127.0.0.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', 'garden'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latte/gz_ws/build/gz-waves1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latte/gz_ws/install')]), 'shell': False}
+[0.311091] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.314381] (gz-waves1) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.314588] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake\n'}
+[0.314661] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake\n'}
+[0.314726] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake\n'}
+[0.314790] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/detail/Export.hh\n'}
+[0.315031] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Export.hh\n'}
+[0.315236] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so.1.0.0\n'}
+[0.315310] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so.1\n'}
+[0.315377] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so\n'}
+[0.315441] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config.cmake\n'}
+[0.315504] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config-version.cmake\n'}
+[0.315566] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets.cmake\n'}
+[0.315627] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake\n'}
+[0.315687] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1.pc\n'}
+[0.315748] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh\n'}
+[0.315809] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh\n'}
+[0.316048] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0\n'}
+[0.316143] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1\n'}
+[0.316204] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so\n'}
+[0.316268] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake\n'}
+[0.316331] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake\n'}
+[0.316393] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake\n'}
+[0.316454] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake\n'}
+[0.316516] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc\n'}
+[0.316587] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh\n'}
+[0.316649] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh\n'}
+[0.316710] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1.0.0\n'}
+[0.316770] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1\n'}
+[0.316838] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so\n'}
+[0.317101] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake\n'}
+[0.317175] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake\n'}
+[0.317241] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake\n'}
+[0.317304] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake\n'}
+[0.317366] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc\n'}
+[0.317427] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh\n'}
+[0.317488] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering/Export.hh\n'}
+[0.317672] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so.1.0.0\n'}
+[0.317734] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so.1\n'}
+[0.317796] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so\n'}
+[0.317896] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake\n'}
+[0.317961] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake\n'}
+[0.318017] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake\n'}
+[0.318079] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake\n'}
+[0.318136] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-rendering.pc\n'}
+[0.318195] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh\n'}
+[0.318253] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh\n'}
+[0.318313] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1.0.0\n'}
+[0.318374] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1\n'}
+[0.318434] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so\n'}
+[0.318493] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake\n'}
+[0.318554] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake\n'}
+[0.318616] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake\n'}
+[0.318677] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake\n'}
+[0.318739] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-rendering-ogre2.pc\n'}
+[0.318800] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh\n'}
+[0.318909] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh\n'}
+[0.318984] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1.0.0\n'}
+[0.319051] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1\n'}
+[0.319253] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so\n'}
+[0.319310] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake\n'}
+[0.319369] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake\n'}
+[0.319466] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake\n'}
+[0.319533] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake\n'}
+[0.319594] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-waves-visual-system.pc\n'}
+[0.319657] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh\n'}
+[0.319716] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh\n'}
+[0.319774] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1.0.0\n'}
+[0.319841] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1\n'}
+[0.319999] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so\n'}
+[0.320062] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake\n'}
+[0.320121] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake\n'}
+[0.320185] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake\n'}
+[0.320242] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake\n'}
+[0.320318] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-waves-model-system.pc\n'}
+[0.320379] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/components/Wavefield.hh\n'}
+[0.320439] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Algorithm.hh\n'}
+[0.320619] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/CGALTypes.hh\n'}
+[0.320709] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Convert.hh\n'}
+[0.320769] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Geometry.hh\n'}
+[0.320873] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Grid.hh\n'}
+[0.321046] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh\n'}
+[0.321196] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh\n'}
+[0.321302] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh\n'}
+[0.321408] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/MeshTools.hh\n'}
+[0.321468] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/OceanTile.hh\n'}
+[0.321527] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/PhysicalConstants.hh\n'}
+[0.321586] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Physics.hh\n'}
+[0.321645] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh\n'}
+[0.321705] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh\n'}
+[0.321764] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Types.hh\n'}
+[0.321828] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Utilities.hh\n'}
+[0.322209] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveParameters.hh\n'}
+[0.322270] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSimulation.hh\n'}
+[0.322330] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSpectrum.hh\n'}
+[0.322390] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh\n'}
+[0.322450] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Wavefield.hh\n'}
+[0.322510] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WavefieldSampler.hh\n'}
+[0.322569] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/../waves.hh\n'}
+[0.322629] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/config.hh\n'}
+[0.322689] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/components.hh\n'}
+[0.322748] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_GnuPlotExample\n'}
+[0.322808] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRandomFFTWaves\n'}
+[0.323081] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRandomWaves\n'}
+[0.323147] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRegularWaves\n'}
+[0.323208] (gz-waves1) StdoutLine: {'line': b'-- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_WaveSpectrum\n'}
+[0.323269] (gz-waves1) CommandEnded: {'returncode': 0}
+[0.335805] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.337004] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 - found\n'}
+[0.337242] (ardupilot_gazebo) StdoutLine: {'line': b'\n'}
+[0.338483] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[0.338949] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering7\n'}
+[0.339159] (gz-waves1) JobEnded: {'identifier': 'gz-waves1', 'rc': 0}
+[0.339715] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.339817] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.339893] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.340001] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[0.340498] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[0.340709] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[0.344009] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[0.344195] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.344373] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.344455] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.344536] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.350090] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[0.350563] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.0\n'}
+[0.350786] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[0.351004] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.352920] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[0.353140] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[0.353590] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.0\n'}
+[0.353803] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[0.354017] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.354283] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[0.354719] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.0\n'}
+[0.354962] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[0.355156] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.355372] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[0.356092] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.356315] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.356506] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.356725] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.356788] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.357234] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[0.357433] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.357896] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[0.358326] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[0.358561] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.359002] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[0.359248] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.359896] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[0.360142] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.360829] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.366133] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  found components: OpenGL \n'}
+[0.367019] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-rendering7 - found\n'}
+[0.367132] (ardupilot_gazebo) StdoutLine: {'line': b'\n'}
+[0.367940] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sim7 -- found version 7.9.0\n'}
+[0.368124] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim7\n'}
+[0.368513] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[0.368663] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of sdformat13\n'}
+[0.372607] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.382351] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.404327] (-) TimerEvent: {}
+[0.410078] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.410348] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.410578] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.411230] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[0.411421] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[0.504567] (-) TimerEvent: {}
+[0.535060] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.541207] (ardupilot_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.545478] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.556285] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.585119] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.591216] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.591979] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[0.592229] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[0.603972] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.604671] (-) TimerEvent: {}
+[0.609088] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [log]\n'}
+[0.609466] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-transport12-log -- found version 12.2.2\n'}
+[0.609671] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-log\n'}
+[0.610062] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [parameters]\n'}
+[0.610587] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-transport12-parameters -- found version 12.2.2\n'}
+[0.610670] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-parameters\n'}
+[0.611260] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[0.611380] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[0.611619] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.611796] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.611954] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.611981] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.618045] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[0.618792] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.0\n'}
+[0.619175] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[0.619476] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[0.619690] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[0.620289] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.0\n'}
+[0.620400] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[0.624318] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.636631] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[0.666186] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[0.670877] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[0.680956] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[0.704835] (-) TimerEvent: {}
+[0.711496] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[0.716276] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[0.725652] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[0.757933] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[0.762062] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[0.771578] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[0.799593] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[0.803737] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[0.805065] (-) TimerEvent: {}
+[0.813986] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[0.844404] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[0.844985] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[0.846025] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.0\n'}
+[0.846670] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[0.848093] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-fuel_tools8 -- found version 8.2.0\n'}
+[0.848412] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools8\n'}
+[0.905155] (-) TimerEvent: {}
+[0.907305] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[0.912570] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.922604] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.953252] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[0.963881] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[0.974184] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.2\n'}
+[1.003467] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[1.005290] (-) TimerEvent: {}
+[1.007727] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.017639] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.046426] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.046657] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.046844] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.047325] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.047536] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.047600] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.047671] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.054197] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.054863] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.0\n'}
+[1.055177] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.056068] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.056337] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[1.057592] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-gui7 -- found version 7.2.2\n'}
+[1.057767] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui7\n'}
+[1.071242] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.071521] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.071770] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.072171] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.072512] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[1.072830] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[1.073197] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[1.083129] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-physics6 -- found version 6.7.0\n'}
+[1.083387] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6\n'}
+[1.083495] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.083626] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.083767] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.084053] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.084788] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [heightmap]\n'}
+[1.085099] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-physics6-heightmap -- found version 6.7.0\n'}
+[1.085354] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-heightmap\n'}
+[1.085455] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.085651] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [mesh]\n'}
+[1.086125] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-physics6-mesh -- found version 6.7.0\n'}
+[1.086346] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-mesh\n'}
+[1.086498] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.086722] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [sdf]\n'}
+[1.087162] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-physics6-sdf -- found version 6.7.0\n'}
+[1.087412] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-sdf\n'}
+[1.087706] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[1.088571] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.088750] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7\n'}
+[1.099440] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.099690] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.099869] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[1.099989] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[1.100222] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[1.100437] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[1.100711] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_pressure]\n'}
+[1.101251] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_pressure -- found version 7.3.1\n'}
+[1.101508] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_pressure\n'}
+[1.101726] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_speed]\n'}
+[1.102230] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_speed -- found version 7.3.1\n'}
+[1.102440] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_speed\n'}
+[1.102647] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [altimeter]\n'}
+[1.103110] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-altimeter -- found version 7.3.1\n'}
+[1.103315] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-altimeter\n'}
+[1.103556] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [imu]\n'}
+[1.103996] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-imu -- found version 7.3.1\n'}
+[1.104262] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-imu\n'}
+[1.104507] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [force_torque]\n'}
+[1.104999] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-force_torque -- found version 7.3.1\n'}
+[1.105209] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-force_torque\n'}
+[1.105338] (-) TimerEvent: {}
+[1.105489] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [logical_camera]\n'}
+[1.105922] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-logical_camera -- found version 7.3.1\n'}
+[1.106192] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-logical_camera\n'}
+[1.106452] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [magnetometer]\n'}
+[1.106914] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-magnetometer -- found version 7.3.1\n'}
+[1.107160] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-magnetometer\n'}
+[1.107419] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [navsat]\n'}
+[1.107911] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-navsat -- found version 7.3.1\n'}
+[1.108118] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-navsat\n'}
+[1.108377] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rendering]\n'}
+[1.108868] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-rendering -- found version 7.3.1\n'}
+[1.109088] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rendering\n'}
+[1.109341] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [lidar]\n'}
+[1.109843] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-lidar -- found version 7.3.1\n'}
+[1.110053] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-lidar\n'}
+[1.110279] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.110572] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [gpu_lidar]\n'}
+[1.111010] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-gpu_lidar -- found version 7.3.1\n'}
+[1.111262] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-gpu_lidar\n'}
+[1.111477] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.111768] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [camera]\n'}
+[1.112254] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-camera -- found version 7.3.1\n'}
+[1.112463] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-camera\n'}
+[1.112684] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.112989] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [boundingbox_camera]\n'}
+[1.113468] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.1\n'}
+[1.113679] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-boundingbox_camera\n'}
+[1.113944] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [segmentation_camera]\n'}
+[1.114404] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-segmentation_camera -- found version 7.3.1\n'}
+[1.114612] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-segmentation_camera\n'}
+[1.114897] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [depth_camera]\n'}
+[1.115328] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-depth_camera -- found version 7.3.1\n'}
+[1.115541] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-depth_camera\n'}
+[1.115751] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.116040] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rgbd_camera]\n'}
+[1.116471] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-rgbd_camera -- found version 7.3.1\n'}
+[1.116674] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rgbd_camera\n'}
+[1.116884] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.117159] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [thermal_camera]\n'}
+[1.117601] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-thermal_camera -- found version 7.3.1\n'}
+[1.117804] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-thermal_camera\n'}
+[1.118010] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[1.118284] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [wide_angle_camera]\n'}
+[1.118720] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.1\n'}
+[1.118937] (ardupilot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-wide_angle_camera\n'}
+[1.119484] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[1.119661] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.119886] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.130740] (ardupilot_gazebo) StdoutLine: {'line': b'-- Looking for gz-sim7 - found\n'}
+[1.130904] (ardupilot_gazebo) StdoutLine: {'line': b'\n'}
+[1.130967] (ardupilot_gazebo) StdoutLine: {'line': b'-- Compiling against Gazebo Garden\n'}
+[1.131103] (ardupilot_gazebo) StdoutLine: {'line': b'-- RapidJSON found. Headers: /usr/include\n'}
+[1.135838] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.136334] (ardupilot_gazebo) StdoutLine: {'line': b"-- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0'\n"}
+[1.151205] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[1.159066] (ardupilot_gazebo) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[1.191275] (ardupilot_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.203950] (ardupilot_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.204208] (ardupilot_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.204309] (ardupilot_gazebo) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.204370] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[1.204426] (ardupilot_gazebo) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[1.204479] (ardupilot_gazebo) StderrLine: {'line': b'    BUILD_TESTING\n'}
+[1.204530] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[1.204586] (ardupilot_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[1.205560] (-) TimerEvent: {}
+[1.207102] (ardupilot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/latte/gz_ws/build/ardupilot_gazebo\n'}
+[1.213656] (ardupilot_gazebo) CommandEnded: {'returncode': 0}
+[1.214519] (ardupilot_gazebo) JobProgress: {'identifier': 'ardupilot_gazebo', 'progress': 'build'}
+[1.215338] (ardupilot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latte/gz_ws/build/ardupilot_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/latte/gz_ws/build/ardupilot_gazebo', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/build::/home/latte/gz_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/latte/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/models:/home/latte/gz_ws/src/ardupilot_gazebo/worlds::/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/worlds'), ('LANGUAGE', 'en_SG:en'), ('USER', 'latte'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/latte/gz_ws/install/lib'), ('HOME', '/home/latte'), ('OLDPWD', '/home/latte/gz_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/latte/gz_ws/install'), ('LOGNAME', 'latte'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/latte/gz_ws/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latte'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/latte/gz_ws/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sigma:@/tmp/.ICE-unix/1416,unix/sigma:/tmp/.ICE-unix/1416'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bad8eefe_7e01_4538_919a_20bd5cefe1b5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GZ_IP', '127.0.0.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', 'garden'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latte/gz_ws/build/ardupilot_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latte/gz_ws/install')]), 'shell': False}
+[1.252649] (ardupilot_gazebo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/GstCameraPlugin.dir/src/GstCameraPlugin.cc.o\x1b[0m\n'}
+[1.252870] (ardupilot_gazebo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o\x1b[0m\n'}
+[1.253588] (ardupilot_gazebo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/CameraZoomPlugin.dir/src/CameraZoomPlugin.cc.o\x1b[0m\n'}
+[1.254148] (ardupilot_gazebo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ParachutePlugin.dir/src/ParachutePlugin.cc.o\x1b[0m\n'}
+[1.254278] (ardupilot_gazebo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/Util.cc.o\x1b[0m\n'}
+[1.254353] (ardupilot_gazebo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/SocketUDP.cc.o\x1b[0m\n'}
+[1.305732] (-) TimerEvent: {}
+[1.406139] (-) TimerEvent: {}
+[1.506511] (-) TimerEvent: {}
+[1.606908] (-) TimerEvent: {}
+[1.707326] (-) TimerEvent: {}
+[1.807687] (-) TimerEvent: {}
+[1.908064] (-) TimerEvent: {}
+[2.008431] (-) TimerEvent: {}
+[2.108791] (-) TimerEvent: {}
+[2.209163] (-) TimerEvent: {}
+[2.309550] (-) TimerEvent: {}
+[2.409979] (-) TimerEvent: {}
+[2.510409] (-) TimerEvent: {}
+[2.610815] (-) TimerEvent: {}
+[2.711258] (-) TimerEvent: {}
+[2.811703] (-) TimerEvent: {}
+[2.912137] (-) TimerEvent: {}
+[3.012559] (-) TimerEvent: {}
+[3.113012] (-) TimerEvent: {}
+[3.213481] (-) TimerEvent: {}
+[3.313911] (-) TimerEvent: {}
+[3.414213] (-) TimerEvent: {}
+[3.514579] (-) TimerEvent: {}
+[3.614939] (-) TimerEvent: {}
+[3.715297] (-) TimerEvent: {}
+[3.815660] (-) TimerEvent: {}
+[3.916058] (-) TimerEvent: {}
+[4.016428] (-) TimerEvent: {}
+[4.116791] (-) TimerEvent: {}
+[4.217177] (-) TimerEvent: {}
+[4.317540] (-) TimerEvent: {}
+[4.417895] (-) TimerEvent: {}
+[4.518256] (-) TimerEvent: {}
+[4.618615] (-) TimerEvent: {}
+[4.718946] (-) TimerEvent: {}
+[4.819305] (-) TimerEvent: {}
+[4.919676] (-) TimerEvent: {}
+[5.020069] (-) TimerEvent: {}
+[5.120441] (-) TimerEvent: {}
+[5.220806] (-) TimerEvent: {}
+[5.321185] (-) TimerEvent: {}
+[5.421544] (-) TimerEvent: {}
+[5.521902] (-) TimerEvent: {}
+[5.622257] (-) TimerEvent: {}
+[5.722610] (-) TimerEvent: {}
+[5.822972] (-) TimerEvent: {}
+[5.923327] (-) TimerEvent: {}
+[6.023683] (-) TimerEvent: {}
+[6.124047] (-) TimerEvent: {}
+[6.224336] (-) TimerEvent: {}
+[6.324701] (-) TimerEvent: {}
+[6.425072] (-) TimerEvent: {}
+[6.525540] (-) TimerEvent: {}
+[6.626006] (-) TimerEvent: {}
+[6.726480] (-) TimerEvent: {}
+[6.826862] (-) TimerEvent: {}
+[6.927336] (-) TimerEvent: {}
+[7.027685] (-) TimerEvent: {}
+[7.128157] (-) TimerEvent: {}
+[7.228623] (-) TimerEvent: {}
+[7.329097] (-) TimerEvent: {}
+[7.429564] (-) TimerEvent: {}
+[7.530033] (-) TimerEvent: {}
+[7.630499] (-) TimerEvent: {}
+[7.730952] (-) TimerEvent: {}
+[7.831412] (-) TimerEvent: {}
+[7.931875] (-) TimerEvent: {}
+[8.032331] (-) TimerEvent: {}
+[8.132697] (-) TimerEvent: {}
+[8.233165] (-) TimerEvent: {}
+[8.333622] (-) TimerEvent: {}
+[8.434099] (-) TimerEvent: {}
+[8.534581] (-) TimerEvent: {}
+[8.635050] (-) TimerEvent: {}
+[8.735487] (-) TimerEvent: {}
+[8.835851] (-) TimerEvent: {}
+[8.936222] (-) TimerEvent: {}
+[9.036558] (-) TimerEvent: {}
+[9.136934] (-) TimerEvent: {}
+[9.237217] (-) TimerEvent: {}
+[9.337590] (-) TimerEvent: {}
+[9.437929] (-) TimerEvent: {}
+[9.440778] (ardupilot_gazebo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libCameraZoomPlugin.so\x1b[0m\n'}
+[9.529158] (ardupilot_gazebo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libParachutePlugin.so\x1b[0m\n'}
+[9.538121] (-) TimerEvent: {}
+[9.638605] (-) TimerEvent: {}
+[9.680543] (ardupilot_gazebo) StdoutLine: {'line': b'[ 80%] Built target CameraZoomPlugin\n'}
+[9.738779] (-) TimerEvent: {}
+[9.752714] (ardupilot_gazebo) StdoutLine: {'line': b'[ 80%] Built target ParachutePlugin\n'}
+[9.762108] (ardupilot_gazebo) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libGstCameraPlugin.so\x1b[0m\n'}
+[9.839026] (-) TimerEvent: {}
+[9.939426] (-) TimerEvent: {}
+[9.986595] (ardupilot_gazebo) StdoutLine: {'line': b'[ 90%] Built target GstCameraPlugin\n'}
+[10.039635] (-) TimerEvent: {}
+[10.140025] (-) TimerEvent: {}
+[10.240405] (-) TimerEvent: {}
+[10.340795] (-) TimerEvent: {}
+[10.441191] (-) TimerEvent: {}
+[10.541570] (-) TimerEvent: {}
+[10.641980] (-) TimerEvent: {}
+[10.742376] (-) TimerEvent: {}
+[10.842759] (-) TimerEvent: {}
+[10.943159] (-) TimerEvent: {}
+[11.043546] (-) TimerEvent: {}
+[11.143951] (-) TimerEvent: {}
+[11.244339] (-) TimerEvent: {}
+[11.344731] (-) TimerEvent: {}
+[11.445005] (-) TimerEvent: {}
+[11.545395] (-) TimerEvent: {}
+[11.645804] (-) TimerEvent: {}
+[11.746236] (-) TimerEvent: {}
+[11.846634] (-) TimerEvent: {}
+[11.947042] (-) TimerEvent: {}
+[12.047428] (-) TimerEvent: {}
+[12.147814] (-) TimerEvent: {}
+[12.248231] (-) TimerEvent: {}
+[12.348655] (-) TimerEvent: {}
+[12.449149] (-) TimerEvent: {}
+[12.549568] (-) TimerEvent: {}
+[12.650026] (-) TimerEvent: {}
+[12.750296] (-) TimerEvent: {}
+[12.850609] (-) TimerEvent: {}
+[12.950919] (-) TimerEvent: {}
+[13.051192] (-) TimerEvent: {}
+[13.151564] (-) TimerEvent: {}
+[13.251897] (-) TimerEvent: {}
+[13.352154] (-) TimerEvent: {}
+[13.413622] (ardupilot_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libArduPilotPlugin.so\x1b[0m\n'}
+[13.452272] (-) TimerEvent: {}
+[13.552596] (-) TimerEvent: {}
+[13.613081] (ardupilot_gazebo) StdoutLine: {'line': b'[100%] Built target ArduPilotPlugin\n'}
+[13.624210] (ardupilot_gazebo) CommandEnded: {'returncode': 0}
+[13.624650] (ardupilot_gazebo) JobProgress: {'identifier': 'ardupilot_gazebo', 'progress': 'install'}
+[13.624809] (ardupilot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/latte/gz_ws/build/ardupilot_gazebo'], 'cwd': '/home/latte/gz_ws/build/ardupilot_gazebo', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/build::/home/latte/gz_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/latte/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/latte/gz_ws/src/ardupilot_gazebo/models:/home/latte/gz_ws/src/ardupilot_gazebo/worlds::/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/latte/gz_ws/src/asv_wave_sim/gz-waves-models/worlds'), ('LANGUAGE', 'en_SG:en'), ('USER', 'latte'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/latte/gz_ws/install/lib'), ('HOME', '/home/latte'), ('OLDPWD', '/home/latte/gz_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/latte/gz_ws/install'), ('LOGNAME', 'latte'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/latte/gz_ws/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latte'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/latte/gz_ws/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sigma:@/tmp/.ICE-unix/1416,unix/sigma:/tmp/.ICE-unix/1416'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bad8eefe_7e01_4538_919a_20bd5cefe1b5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GZ_IP', '127.0.0.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', 'garden'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latte/gz_ws/build/ardupilot_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latte/gz_ws/install')]), 'shell': False}
+[13.630012] (ardupilot_gazebo) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[13.630123] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/lib/ardupilot_gazebo/libArduPilotPlugin.so\n'}
+[13.634421] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/lib/ardupilot_gazebo/libParachutePlugin.so\n'}
+[13.637192] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/lib/ardupilot_gazebo/libCameraZoomPlugin.so\n'}
+[13.640071] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/lib/ardupilot_gazebo/libGstCameraPlugin.so\n'}
+[13.642368] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/config\n'}
+[13.642445] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/config/gazebo-iris-gimbal.parm\n'}
+[13.642576] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models\n'}
+[13.642633] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_ardupilot\n'}
+[13.642663] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_ardupilot/model.sdf\n'}
+[13.642715] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_ardupilot/model.config\n'}
+[13.642746] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway\n'}
+[13.642769] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/model.sdf\n'}
+[13.642792] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials\n'}
+[13.642813] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures\n'}
+[13.642851] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_AmbientOcclusion.jpg\n'}
+[13.644409] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_NormalGL.jpg\n'}
+[13.648627] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Roughness.jpg\n'}
+[13.650376] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Color copy.jpg\n'}
+[13.652721] (-) TimerEvent: {}
+[13.655142] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Color.jpg\n'}
+[13.655690] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/runway.png\n'}
+[13.655779] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Displacement.jpg\n'}
+[13.657689] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/meshes\n'}
+[13.657897] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/meshes/airfield.dae\n'}
+[13.657940] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/runway/model.config\n'}
+[13.657967] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr\n'}
+[13.657999] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/model.sdf\n'}
+[13.658028] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails\n'}
+[13.658054] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails/4.png\n'}
+[13.658083] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails/3.png\n'}
+[13.658108] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails/2.png\n'}
+[13.658180] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails/5.png\n'}
+[13.658205] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/thumbnails/1.png\n'}
+[13.658230] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/materials\n'}
+[13.658254] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/materials/textures\n'}
+[13.658284] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/materials/textures/wing.png\n'}
+[13.658310] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/meshes\n'}
+[13.658335] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/meshes/wing.dae\n'}
+[13.658361] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/meshes/parachute_small.dae\n'}
+[13.658557] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr/model.config\n'}
+[13.658632] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_ardupilot\n'}
+[13.658665] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_ardupilot/model.sdf\n'}
+[13.658691] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_ardupilot/model.config\n'}
+[13.658718] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d\n'}
+[13.658744] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/model.sdf\n'}
+[13.658768] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/meshes\n'}
+[13.658791] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/tilt.dae\n'}
+[13.660275] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/base_arm.dae\n'}
+[13.662101] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/base_main.dae\n'}
+[13.665538] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_1d/model.config\n'}
+[13.665740] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/parachute_small\n'}
+[13.665816] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/parachute_small/model.sdf\n'}
+[13.665907] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/parachute_small/meshes\n'}
+[13.665973] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/parachute_small/meshes/parachute_small.dae\n'}
+[13.666046] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/parachute_small/model.config\n'}
+[13.666127] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_parachute\n'}
+[13.666224] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_parachute/model.sdf\n'}
+[13.666280] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/zephyr_with_parachute/model.config\n'}
+[13.666334] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs\n'}
+[13.666390] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/model.sdf\n'}
+[13.666448] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/meshes\n'}
+[13.666503] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_ccw.dae\n'}
+[13.666558] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_cw.dae\n'}
+[13.666623] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris.dae\n'}
+[13.676542] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_standoffs/model.config\n'}
+[13.676620] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_gimbal\n'}
+[13.676683] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_gimbal/model.sdf\n'}
+[13.676842] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/iris_with_gimbal/model.config\n'}
+[13.676938] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d\n'}
+[13.677014] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/model.sdf\n'}
+[13.677076] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/meshes\n'}
+[13.677137] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/base_plate.dae\n'}
+[13.678542] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/camera_enclosure.dae\n'}
+[13.679010] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/roll_arm.dae\n'}
+[13.679784] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/yaw_arm.dae\n'}
+[13.680617] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_3d/model.config\n'}
+[13.680726] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d\n'}
+[13.680813] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/model.sdf\n'}
+[13.680884] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/meshes\n'}
+[13.680949] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/tilt.dae\n'}
+[13.682677] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/base_arm.dae\n'}
+[13.684871] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/base_main.dae\n'}
+[13.688062] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/models/gimbal_small_2d/model.config\n'}
+[13.688160] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds\n'}
+[13.688315] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds/zephyr_parachute.sdf\n'}
+[13.688397] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds/zephyr_runway.sdf\n'}
+[13.688458] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds/iris_warehouse.sdf\n'}
+[13.688514] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds/gimbal.sdf\n'}
+[13.688569] (ardupilot_gazebo) StdoutLine: {'line': b'-- Installing: /home/latte/gz_ws/install/share/ardupilot_gazebo/worlds/iris_runway.sdf\n'}
+[13.689687] (ardupilot_gazebo) CommandEnded: {'returncode': 0}
+[13.702200] (ardupilot_gazebo) JobEnded: {'identifier': 'ardupilot_gazebo', 'rc': 0}
+[13.702754] (-) EventReactorShutdown: {}

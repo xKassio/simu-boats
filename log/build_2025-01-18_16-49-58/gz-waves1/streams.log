@@ -1,0 +1,177 @@
+[0.005s] Invoking command in '/home/latte/gz_ws/build/gz-waves1': /usr/bin/cmake --build /home/latte/gz_ws/build/gz-waves1 -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.059s] [  2%] Built target gtest
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1[0m
+[0.080s] [  4%] Built target gtest_main
+[0.141s] [ 26%] Built target gz-waves1
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_EigenFFTW_TEST[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_LinearRandomFFTWaveSimulation_TEST[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_WaveSpectrum_TEST[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_WaveSpreadingFunction_TEST[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_Geometry_TEST[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target UNIT_TriangulatedGrid_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_Algorithm_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_Wavefield_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_Physics_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_Grid_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_MeshTools_TEST[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target UNIT_CGAL_TEST[0m
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-dynamic-geometry-system[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target UNIT_LinearRegularWaveSimulation_TEST[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-hydrodynamics-system[0m
+[0.167s] [ 29%] Built target UNIT_EigenFFTW_TEST
+[0.172s] [ 32%] Built target UNIT_WaveSpectrum_TEST
+[0.172s] [ 30%] Built target UNIT_WaveSpreadingFunction_TEST
+[0.174s] [ 35%] Built target UNIT_Algorithm_TEST
+[0.174s] [ 35%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-rendering[0m
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-waves-model-system[0m
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_EigenReturnByValue[0m
+[0.184s] [ 37%] Built target gz-waves1-dynamic-geometry-system
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes[0m
+[0.185s] [ 39%] Built target UNIT_Wavefield_TEST
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes[0m
+[0.189s] [ 41%] Built target UNIT_TriangulatedGrid_TEST
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimDisplacements[0m
+[0.193s] [ 44%] Built target UNIT_Grid_TEST
+[0.194s] [ 46%] Built target UNIT_Geometry_TEST
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimElevationAt[0m
+[0.201s] [ 50%] Built target UNIT_MeshTools_TEST
+[0.203s] [ 50%] Built target UNIT_Physics_TEST
+[0.203s] [ 51%] Built target UNIT_LinearRegularWaveSimulation_TEST
+[0.203s] [ 53%] Built target gz-waves1-hydrodynamics-system
+[0.203s] [ 55%] Built target PERFORMANCE_EigenReturnByValue
+[0.204s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_WaveSpectrumECKV[0m
+[0.204s] [35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRegularWaveSimDisplacements[0m
+[0.206s] [ 58%] Built target UNIT_CGAL_TEST
+[0.206s] [ 60%] Built target gz-waves1-waves-model-system
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target PLOT_GnuPlotExample[0m
+[0.208s] [ 62%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomFFTWaves[0m
+[0.208s] [ 63%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[0.209s] [ 65%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[0.210s] [ 67%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomWaves[0m
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRegularWaves[0m
+[0.216s] [ 69%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target PLOT_WaveSpectrum[0m
+[0.217s] [ 72%] Built target PERFORMANCE_WaveSpectrumECKV
+[0.219s] [ 73%] Built target PLOT_GnuPlotExample
+[0.220s] [ 75%] Built target PLOT_LinearRandomFFTWaves
+[0.226s] [ 77%] Built target PLOT_LinearRandomWaves
+[0.229s] [ 79%] Built target PLOT_LinearRegularWaves
+[0.231s] [ 81%] Built target PLOT_WaveSpectrum
+[0.236s] [ 91%] Built target gz-waves1-rendering
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-waves-visual-system[0m
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target gz-waves1-rendering-ogre2[0m
+[0.274s] [ 93%] Built target gz-waves1-waves-visual-system
+[0.287s] [100%] Built target gz-waves1-rendering-ogre2
+[0.299s] Invoked command in '/home/latte/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --build /home/latte/gz_ws/build/gz-waves1 -- -j16 -l16
+[0.307s] Invoking command in '/home/latte/gz_ws/build/gz-waves1': /usr/bin/cmake --install /home/latte/gz_ws/build/gz-waves1
+[0.311s] -- Install configuration: "RelWithDebInfo"
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/detail/Export.hh
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Export.hh
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so.1.0.0
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so.1
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1.so
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config.cmake
+[0.312s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config-version.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1.pc
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake
+[0.313s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1.0.0
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc
+[0.314s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering/Export.hh
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so.1.0.0
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so.1
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering.so
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-rendering.pc
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1.0.0
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so
+[0.315s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-rendering-ogre2.pc
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1.0.0
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-visual-system.so
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake
+[0.316s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-waves-visual-system.pc
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1.0.0
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/libgz-waves1-waves-model-system.so
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/lib/pkgconfig/gz-waves1-waves-model-system.pc
+[0.317s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/components/Wavefield.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Algorithm.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/CGALTypes.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Convert.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Geometry.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Grid.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/MeshTools.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/OceanTile.hh
+[0.318s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/PhysicalConstants.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Physics.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Types.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Utilities.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveParameters.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSimulation.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSpectrum.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/Wavefield.hh
+[0.319s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/WavefieldSampler.hh
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/../waves.hh
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/config.hh
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/include/gz/waves1/gz/waves/components.hh
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_GnuPlotExample
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRandomFFTWaves
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRandomWaves
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_LinearRegularWaves
+[0.320s] -- Up-to-date: /home/latte/gz_ws/install/bin/PLOT_WaveSpectrum
+[0.320s] Invoked command in '/home/latte/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --install /home/latte/gz_ws/build/gz-waves1

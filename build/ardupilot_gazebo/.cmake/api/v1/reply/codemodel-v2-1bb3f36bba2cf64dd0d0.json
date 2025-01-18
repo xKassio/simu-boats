@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-2e46231a0631a89087f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ardupilot_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ArduPilotPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArduPilotPlugin-RelWithDebInfo-130b03757b59b78daa20.json",
+					"name" : "ArduPilotPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CameraZoomPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CameraZoomPlugin-RelWithDebInfo-5ec7ad687562b6d34f30.json",
+					"name" : "CameraZoomPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GstCameraPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GstCameraPlugin-RelWithDebInfo-36293e19a7059de34fc1.json",
+					"name" : "GstCameraPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ParachutePlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ParachutePlugin-RelWithDebInfo-feae0139249f9c8f529e.json",
+					"name" : "ParachutePlugin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/latte/gz_ws/build/ardupilot_gazebo",
+		"source" : "/home/latte/gz_ws/src/ardupilot_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

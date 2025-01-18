@@ -1,0 +1,6 @@
+Invoking command in '/home/latte/gz_ws/build/gz-waves1': /usr/bin/cmake /home/latte/gz_ws/src/asv_wave_sim/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/latte/gz_ws/install
+Invoked command in '/home/latte/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake /home/latte/gz_ws/src/asv_wave_sim/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/latte/gz_ws/install
+Invoking command in '/home/latte/gz_ws/build/gz-waves1': /usr/bin/cmake --build /home/latte/gz_ws/build/gz-waves1 -- -j16 -l16
+Invoked command in '/home/latte/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --build /home/latte/gz_ws/build/gz-waves1 -- -j16 -l16
+Invoking command in '/home/latte/gz_ws/build/gz-waves1': /usr/bin/cmake --install /home/latte/gz_ws/build/gz-waves1
+Invoked command in '/home/latte/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --install /home/latte/gz_ws/build/gz-waves1
