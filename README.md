@@ -134,6 +134,8 @@ echo 'export GZ_SIM_RESOURCE_PATH=$HOME/gz_ws/src/ardupilot_gazebo/models:$HOME/
 
 
 ## Examples
+cd gz_ws
+source install/setup.bash
 gz sim waves.sdf
 
 
